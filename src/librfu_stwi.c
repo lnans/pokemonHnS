@@ -118,8 +118,7 @@ void STWI_init_Callback_S(void)
     STWI_set_Callback_S(NULL);
 }
 
-// The callback can take 2 or 3 arguments.
-void STWI_set_Callback_M(void *callbackM)
+void STWI_set_Callback_M(void (*callbackM)(u8, u16))
 {
     gSTWIStatus->callbackM = callbackM;
 }
@@ -566,7 +565,7 @@ static u16 STWI_init(u8 request)
         // Can't send if clock slave
         gSTWIStatus->error = ERR_REQ_CMD_CLOCK_SLAVE;
         if (gSTWIStatus->callbackM != NULL)
-            gSTWIStatus->callbackM(request, gSTWIStatus->error, gSTWIStatus);
+            gSTWIStatus->callbackM(request, gSTWIStatus->error);
         return TRUE;
     }
     else
