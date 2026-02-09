@@ -10,7 +10,7 @@
 | Status | File                              | Description                           | ~Strings |
 | ------ | --------------------------------- | ------------------------------------- | -------- |
 | [x]    | `src/strings.c`                   | UI & menu strings                     | ~1,100   |
-| [ ]    | `data/text/birch_speech.inc`      | Prof. Oak intro speech                | ~30      |
+| [x]    | `data/text/birch_speech.inc`      | Prof. Oak intro speech                | ~30      |
 | [ ]    | `data/text/trainers.inc`          | Trainer battle intro/defeat/post text | ~2,498   |
 | [ ]    | `src/battle_message.c`            | All in-battle text                    | ~500     |
 | [ ]    | `src/data/text/species_names.h`   | Pokemon names                         | ~464     |

@@ -7,7 +7,7 @@ Key points to always respect:
 - Do NOT rename text labels (e.g., `NewBarkTown_Text_Sign:`)
 - Preserve control codes (`\n`, `\l`, `\p`) and the `$` string terminator in `.inc` files
 - Respect string length limits (`POKEMON_NAME_LENGTH`, `MOVE_NAME_LENGTH`, `ITEM_NAME_LENGTH`, `TYPE_NAME_LENGTH`, etc.)
-- Keep lines within ~26-28 characters to fit the GBA text box width
+- Keep lines within ~34-35 characters to fit the GBA text box width
 - Use official French Pokemon terminology (names, moves, types, abilities) from Bulbapedia or pokepedia.fr
 - Edit JSON source files for map names, not the auto-generated C headers
 - For item/move/Pokemon data, always check the relevant `_LENGTH` constant before translating

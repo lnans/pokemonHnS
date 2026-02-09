@@ -631,7 +631,7 @@ Check `include/constants/global.h` or similar for these constants. If French nam
 
 ### Text Box Width
 
-The GBA screen is 240 pixels wide. A text box is typically ~224 pixels. With the default font, this fits approximately **26-28 characters** per line. Keep dialogue lines within this width.
+The GBA screen is 240 pixels wide. A text box is typically ~224 pixels. With the default font, this fits approximately **34-35 characters** per line. Keep dialogue lines within this width.
 
 ### Line Breaks
 
