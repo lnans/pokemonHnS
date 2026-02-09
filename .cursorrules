@@ -1,0 +1,13 @@
+## Translation Work
+
+When performing any translation-related task in this repository (translating strings, adding language support, modifying `.string` directives in `.inc` files, editing `_("...")` macros in C/H files, or working with region map JSON files), you **must** first read and follow the guidelines in `docs/TRANSLATION_GUIDE.md`.
+
+Key points to always respect:
+- Do NOT translate placeholders like `{PLAYER}`, `{STR_VAR_1}`, `{B_ATK_NAME_WITH_PREFIX}`, etc.
+- Do NOT rename text labels (e.g., `NewBarkTown_Text_Sign:`)
+- Preserve control codes (`\n`, `\l`, `\p`) and the `$` string terminator in `.inc` files
+- Respect string length limits (`POKEMON_NAME_LENGTH`, `MOVE_NAME_LENGTH`, `ITEM_NAME_LENGTH`, `TYPE_NAME_LENGTH`, etc.)
+- Keep lines within ~26-28 characters to fit the GBA text box width
+- Use official French Pokemon terminology (names, moves, types, abilities) from Bulbapedia or pokepedia.fr
+- Edit JSON source files for map names, not the auto-generated C headers
+- For item/move/Pokemon data, always check the relevant `_LENGTH` constant before translating
