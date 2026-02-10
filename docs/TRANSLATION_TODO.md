@@ -16,7 +16,7 @@
 | [x]    | `src/data/text/species_names.h`   | Pokemon names                         | ~464     |
 | [x]    | `src/data/text/move_names.h`      | Move names                            | ~371     |
 | [x]    | `src/data/items.h`                | Item names                            | ~786     |
-| [ ]    | `data/text/obtain_item.inc`       | Item obtain messages                  | —        |
+| [x]    | `data/text/obtain_item.inc`       | Item obtain messages                  | —        |
 | [ ]    | `data/text/save.inc`              | Save-related messages                 | —        |
 | [ ]    | `data/text/pkmn_center_nurse.inc` | Pokemon Center dialogue               | —        |
 | [ ]    | `data/text/pc.inc`                | PC storage messages                   | —        |
