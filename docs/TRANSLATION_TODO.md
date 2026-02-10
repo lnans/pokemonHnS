@@ -19,7 +19,7 @@
 | [x]    | `data/text/obtain_item.inc`       | Item obtain messages                  | —        |
 | [x]    | `data/text/save.inc`              | Save-related messages                 | —        |
 | [x]    | `data/text/pkmn_center_nurse.inc` | Pokemon Center dialogue               | —        |
-| [ ]    | `data/text/pc.inc`                | PC storage messages                   | —        |
+| [x]    | `data/text/pc.inc`                | PC storage messages                   | —        |
 | [ ]    | `data/text/pc_transfer.inc`       | PC transfer messages                  | —        |
 | [ ]    | `data/text/mart_clerk.inc`        | Shop dialogue                         | —        |
 
