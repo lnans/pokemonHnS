@@ -20,7 +20,7 @@
 | [x]    | `data/text/save.inc`              | Save-related messages                 | —        |
 | [x]    | `data/text/pkmn_center_nurse.inc` | Pokemon Center dialogue               | —        |
 | [x]    | `data/text/pc.inc`                | PC storage messages                   | —        |
-| [ ]    | `data/text/pc_transfer.inc`       | PC transfer messages                  | —        |
+| [x]    | `data/text/pc_transfer.inc`       | PC transfer messages                  | —        |
 | [ ]    | `data/text/mart_clerk.inc`        | Shop dialogue                         | —        |
 
 ### Map Scripts (NPC Dialogue) — ~27,675 strings across ~905 files
