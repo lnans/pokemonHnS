@@ -18,7 +18,7 @@
 | [x]    | `src/data/items.h`                | Item names                            | ~786     |
 | [x]    | `data/text/obtain_item.inc`       | Item obtain messages                  | —        |
 | [x]    | `data/text/save.inc`              | Save-related messages                 | —        |
-| [ ]    | `data/text/pkmn_center_nurse.inc` | Pokemon Center dialogue               | —        |
+| [x]    | `data/text/pkmn_center_nurse.inc` | Pokemon Center dialogue               | —        |
 | [ ]    | `data/text/pc.inc`                | PC storage messages                   | —        |
 | [ ]    | `data/text/pc_transfer.inc`       | PC transfer messages                  | —        |
 | [ ]    | `data/text/mart_clerk.inc`        | Shop dialogue                         | —        |
