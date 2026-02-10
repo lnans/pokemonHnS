@@ -13,7 +13,7 @@
 | [x]    | `data/text/birch_speech.inc`      | Prof. Oak intro speech                | ~30      |
 | [x]    | `data/text/trainers.inc`          | Trainer battle intro/defeat/post text | ~2,498   |
 | [x]    | `src/battle_message.c`            | All in-battle text                    | ~500     |
-| [ ]    | `src/data/text/species_names.h`   | Pokemon names                         | ~464     |
+| [x]    | `src/data/text/species_names.h`   | Pokemon names                         | ~464     |
 | [ ]    | `src/data/text/move_names.h`      | Move names                            | ~371     |
 | [ ]    | `src/data/items.h`                | Item names                            | ~786     |
 | [ ]    | `data/text/obtain_item.inc`       | Item obtain messages                  | —        |
