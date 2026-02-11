@@ -204,9 +204,38 @@
 
 | Status | Asset                               | Description                         |
 | ------ | ----------------------------------- | ----------------------------------- |
-| [ ]    | `graphics/types/move_types.4bpp.lz` | Type icon pixel art (NORMAL, FIRE…) |
+| [x]    | `graphics/types/move_types.4bpp.lz` | Type icon pixel art (NORMAL, FIRE…) |
+| [x]    | `graphics/types/contest_beauty.png` | Beauty type icon pixel art          |
+| [x]    | `graphics/types/contest_cool.png`   | Cool type icon pixel art            |
+| [x]    | `graphics/types/contest_cute.png`   | Cute type icon pixel art            |
+| [x]    | `graphics/types/contest_smart.png`  | Smart type icon pixel art           |
+| [x]    | `graphics/types/contest_tough.png`  | Tough type icon pixel art           |
+| [x]    | `graphics/types/bug.png`            | Bug type icon pixel art             |
+| [x]    | `graphics/types/dark.png`           | Dark type icon pixel art            |
+| [x]    | `graphics/types/dragon.png`         | Dragon type icon pixel art          |
+| [x]    | `graphics/types/electric.png`       | Electric type icon pixel art        |
+| [x]    | `graphics/types/fairy.png`          | Fairy type icon pixel art           |
+| [x]    | `graphics/types/fighting.png`       | Fighting type icon pixel art        |
+| [x]    | `graphics/types/fire.png`           | Fire type icon pixel art            |
+| [x]    | `graphics/types/flying.png`         | Flying type icon pixel art          |
+| [x]    | `graphics/types/ghost.png`          | Ghost type icon pixel art           |
+| [x]    | `graphics/types/grass.png`          | Grass type icon pixel art           |
+| [x]    | `graphics/types/ground.png`         | Ground type icon pixel art          |
+| [x]    | `graphics/types/ice.png`            | Ice type icon pixel art             |
+| [x]    | `graphics/types/normal.png`         | Normal type icon pixel art          |
+| [x]    | `graphics/types/poison.png`         | Poison type icon pixel art          |
+| [x]    | `graphics/types/psychic.png`        | Psychic type icon pixel art         |
+| [x]    | `graphics/types/rock.png`           | Rock type icon pixel art            |
+| [x]    | `graphics/types/steel.png`          | Steel type icon pixel art           |
+| [x]    | `graphics/types/water.png`          | Water type icon pixel art           |
 | [ ]    | Title screen / logos                | Any English text baked in           |
 | [ ]    | Battle UI tilesets                  | Any English text baked in           |
+
+| OAM palette | Fichier .pal     | Types combat                                                | Types concours |
+| ----------- | ---------------- | ----------------------------------------------------------- | -------------- |
+| 13          | move_types_1.pal | Normal, Fighting, Ground, Rock, Steel, Fire, Electric, Dark | Cool, Tough    |
+| 14          | move_types_2.pal | Flying, Poison, Ghost, Water, Psychic, Ice, Fairy           | Beauty, Cute   |
+| 15          | move_types_3.pal | Bug, Mystery, Grass, Dragon                                 | Smart          |
 
 ---
 
