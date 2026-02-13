@@ -138,7 +138,7 @@
 | [x]    | `src/data/text/move_descriptions.h`  | Move descriptions              | ~371     |
 | [x]    | `src/data/text/item_descriptions.h`  | Item descriptions              | ~786     |
 | [x]    | `src/data/text/abilities.h`          | Ability names & descriptions   | ~130     |
-| [ ]    | `src/data/text/nature_names.h`       | Nature names                   | ~25      |
+| [x]    | `src/data/text/nature_names.h`       | Nature names                   | ~25      |
 | [ ]    | `src/data/text/follower_messages.h`  | Following Pokemon messages     | ~150     |
 
 ---
