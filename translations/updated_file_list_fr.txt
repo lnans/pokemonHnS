@@ -8,6 +8,7 @@ src/data/region_map/region_map_entries_johto.h
 src/region_map.c
 
 // Raw Text
+data/text/abnormal_weather.inc
 data/text/birch_speech.inc
 data/text/mart_clerk.inc
 data/text/obtain_item.inc
