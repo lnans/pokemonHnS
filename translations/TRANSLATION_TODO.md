@@ -147,8 +147,8 @@
 
 | Status | File                                                 | Description                     | ~Strings |
 | ------ | ---------------------------------------------------- | ------------------------------- | -------- |
-| [ ]    | `src/data/region_map/region_map_sections_johto.json` | Johto map names                 | —        |
-| [ ]    | `src/data/region_map/region_map_sections.json`       | Other map section names         | —        |
+| [x]    | `src/data/region_map/region_map_sections_johto.json` | Johto map names                 | —        |
+| [x]    | `src/data/region_map/region_map_sections.json`       | Other map section names         | —        |
 | [ ]    | `src/landmark.c`                                     | Landmark names                  | ~50      |
 | [ ]    | `src/battle_main.c` (type names array)               | Type names                      | ~18      |
 | [ ]    | `src/data/text/trainer_class_names.h`                | Trainer class names             | ~85      |
@@ -236,6 +236,9 @@
 | 13          | move_types_1.pal | Normal, Fighting, Ground, Rock, Steel, Fire, Electric, Dark | Cool, Tough    |
 | 14          | move_types_2.pal | Flying, Poison, Ghost, Water, Psychic, Ice, Fairy           | Beauty, Cute   |
 | 15          | move_types_3.pal | Bug, Mystery, Grass, Dragon                                 | Smart          |
+
+> HOWTO: edit the .png files in the graphics/types folder. then run the python script apply_pal.py to apply the palette to the .png files.
+> apply_pal.py <input.png> <palette.pal> [output.png]
 
 ---
 

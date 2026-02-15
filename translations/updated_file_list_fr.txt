@@ -1,0 +1,53 @@
+// Utilities
+src/international_string_util.c
+src/naming_screen.c
+tools/jsonproc/jsonproc.cpp
+
+// Variables refs
+src/data/region_map/region_map_entries_johto.h
+src/region_map.c
+
+// Raw Text
+data/text/birch_speech.inc
+data/text/mart_clerk.inc
+data/text/obtain_item.inc
+data/text/pc_transfer.inc
+data/text/pc.inc
+data/text/pkmn_center_nurse.inc
+data/text/save.inc
+data/text/trainers.inc
+src/battle_message.c
+src/data/items.h
+src/data/pokemon/pokedex_entries.h
+src/data/pokemon/pokedex_text.h
+src/data/region_map/region_map_sections_johto.json
+src/data/region_map/region_map_sections.json
+src/data/text/abilities.h
+src/data/text/follower_messages.h
+src/data/text/item_descriptions.h
+src/data/text/move_descriptions.h
+src/data/text/move_names.h
+src/data/text/nature_names.h
+src/data/text/species_names.h
+src/strings.c
+
+// Sprites
+graphics/types/bug.png
+graphics/types/contest_beauty.png
+graphics/types/contest_cool.png
+graphics/types/contest_cute.png
+graphics/types/contest_smart.png
+graphics/types/contest_tough.png
+graphics/types/dark.png
+graphics/types/fairy.png
+graphics/types/fight.png
+graphics/types/fire.png
+graphics/types/flying.png
+graphics/types/ghost.png
+graphics/types/grass.png
+graphics/types/ground.png
+graphics/types/ice.png
+graphics/types/psychic.png
+graphics/types/rock.png
+graphics/types/steel.png
+graphics/types/water.png

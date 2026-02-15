@@ -1,6 +1,6 @@
 ## Translation Work
 
-When performing any translation-related task in this repository (translating strings, adding language support, modifying `.string` directives in `.inc` files, editing `_("...")` macros in C/H files, or working with region map JSON files), you **must** first read and follow the guidelines in `docs/TRANSLATION_GUIDE.md`.
+When performing any translation-related task in this repository (translating strings, adding language support, modifying `.string` directives in `.inc` files, editing `_("...")` macros in C/H files, or working with region map JSON files), you **must** first read and follow the guidelines in `translations/TRANSLATION_GUIDE.md`.
 
 Key points to always respect:
 - Do NOT translate placeholders like `{PLAYER}`, `{STR_VAR_1}`, `{B_ATK_NAME_WITH_PREFIX}`, etc.

@@ -4,7 +4,7 @@
 
 This is a fork of the original Heart & Soul project, translated into French.\
 To see the original project, go to [Pokemon Heart & Soul](https://github.com/LilDill/pokemonHnS).\
-To see the progress, go to [Translation TODO](./docs/TRANSLATION_TODO.md).
+To see the progress, go to [Translation TODO](./translations/TRANSLATION_TODO.md).
 
 # Pokémon Heart & Soul
 Pokémon Heart & Soul brings the classic Johto Region and its iconic story to the world of modern GBA decomp hacking. Built on the Modern Emerald decomp, this project offers a fresh take on the GSC/HGSS experience, blending key aspects of the Gen 2 and Gen 4 games, while incorporating many modern QoL features, as well as some familiar Gen 3 mechanics. Not only is Heart & Soul (HnS) a first-of-its-kind, fully completed, playtested, and largely faithful GSC remake / HGSS demake, it's also completely open source, and is intended to be a base for a new generation of Johto rom hacks.
