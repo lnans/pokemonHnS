@@ -9,6 +9,7 @@ src/region_map.c
 
 // Raw Text
 data/text/abnormal_weather.inc
+data/text/braille.inc
 data/text/battle_dome.inc
 data/text/battle_tent.inc
 data/text/berries.inc
