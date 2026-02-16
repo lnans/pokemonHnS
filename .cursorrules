@@ -11,3 +11,6 @@ Key points to always respect:
 - Use official French Pokemon terminology (names, moves, types, abilities) from Bulbapedia or pokepedia.fr
 - Edit JSON source files for map names, not the auto-generated C headers
 - For item/move/Pokemon data, always check the relevant `_LENGTH` constant before translating
+- For 'you' and 'your' translations, use 'toi' and 'ton' instead of 'tu' and 'ton' when its relevant.
+- For '«' and '»' translations, use '“' and '”' instead.
+- When you update a file check the `translations/updated_files_<lang>.txt` and add the file to the list if it's not already there.
