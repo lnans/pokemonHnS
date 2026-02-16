@@ -16,6 +16,7 @@ data/text/berries.inc
 data/text/birch_speech.inc
 data/text/blend_master.inc
 data/text/cable_club.inc
+data/text/check_furniture.inc
 data/text/mart_clerk.inc
 data/text/obtain_item.inc
 data/text/pc_transfer.inc
