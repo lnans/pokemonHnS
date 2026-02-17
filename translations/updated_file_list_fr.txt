@@ -21,6 +21,7 @@ data/text/contest_strings.inc
 data/text/contest_painting.inc
 data/text/check_furniture.inc
 data/text/event_ticket_1.inc
+data/text/event_ticket_2.inc
 data/text/mart_clerk.inc
 data/text/obtain_item.inc
 data/text/pc_transfer.inc
