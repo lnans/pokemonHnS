@@ -1,3 +1,12 @@
+// Files to be able to build on modern C compiler on Mac OS
+include/constants/map_groups.h
+include/gba/m4a_internal.h
+include/librfu.h
+src/field_player_avatar.c
+src/librfu_intr.c
+src/m4a.c
+src/main_menu.c
+
 // Utilities
 src/international_string_util.c
 src/naming_screen.c
@@ -9,17 +18,17 @@ src/region_map.c
 
 // Raw Text
 data/text/abnormal_weather.inc
-data/text/braille.inc
 data/text/battle_dome.inc
 data/text/battle_tent.inc
 data/text/berries.inc
 data/text/birch_speech.inc
 data/text/blend_master.inc
+data/text/braille.inc
 data/text/cable_club.inc
-data/text/contest_link.inc
-data/text/contest_strings.inc
-data/text/contest_painting.inc
 data/text/check_furniture.inc
+data/text/contest_link.inc
+data/text/contest_painting.inc
+data/text/contest_strings.inc
 data/text/event_ticket_1.inc
 data/text/event_ticket_2.inc
 data/text/frontier_brain.inc
