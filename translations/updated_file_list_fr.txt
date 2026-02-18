@@ -36,6 +36,7 @@ data/text/lottery_corner.inc
 data/text/mart_clerk.inc
 data/text/match_call.inc
 data/text/mauville_man.inc
+data/text/move_tutors.inc
 data/text/obtain_item.inc
 data/text/pc_transfer.inc
 data/text/pc.inc
