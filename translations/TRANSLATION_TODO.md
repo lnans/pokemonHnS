@@ -155,8 +155,8 @@
 | [ ]    | `src/data/trainers.h` (trainer names)                | Trainer proper names (optional) | ~700     |
 | [ ]    | `src/options_plus_menu.c`                            | Options+ menu labels & tooltips | —        |
 | [ ]    | `src/tx_rac_menu.c`                                  | Game setup / challenge menu     | —        |
-| [ ]    | `data/text/pokedex_rating.inc`                       | Pokedex rating messages         | —        |
-| [ ]    | `data/text/move_tutors.inc`                          | Move tutor dialogue             | —        |
+| [x]    | `data/text/pokedex_rating.inc`                       | Pokedex rating messages         | —        |
+| [x]    | `data/text/move_tutors.inc`                          | Move tutor dialogue             | —        |
 
 ---
 
@@ -165,38 +165,38 @@
 | Status | File                                       | Description                   | ~Strings |
 | ------ | ------------------------------------------ | ----------------------------- | -------- |
 | [ ]    | `src/data/easy_chat/` (all ~25 files)      | Easy Chat word banks          | ~1,000   |
-| [ ]    | `data/text/match_call.inc`                 | PokeNav match call dialogue   | ~2,328   |
+| [x]    | `data/text/match_call.inc`                 | PokeNav match call dialogue   | ~2,328   |
 | [ ]    | `data/text/tv.inc`                         | TV show scripts               | ~2,193   |
-| [ ]    | `data/text/contest_strings.inc`            | Contest text                  | —        |
-| [ ]    | `data/text/contest_link.inc`               | Contest link text             | —        |
-| [ ]    | `data/text/contest_painting.inc`           | Contest painting descriptions | —        |
+| [x]    | `data/text/contest_strings.inc`            | Contest text                  | —        |
+| [x]    | `data/text/contest_link.inc`               | Contest link text             | —        |
+| [x]    | `data/text/contest_painting.inc`           | Contest painting descriptions | —        |
 | [ ]    | `src/data/decoration/header.h`             | Decoration names              | —        |
 | [ ]    | `src/data/decoration/description.h`        | Decoration descriptions       | —        |
 | [ ]    | `src/data/text/ribbon_descriptions.h`      | Ribbon descriptions           | ~48      |
 | [ ]    | `src/data/text/gift_ribbon_descriptions.h` | Gift ribbon descriptions      | ~115     |
 | [ ]    | `src/data/text/match_call_messages.h`      | Match call character messages | ~471     |
-| [ ]    | `data/text/berries.inc`                    | Berry-related text            | ~157     |
+| [x]    | `data/text/berries.inc`                    | Berry-related text            | ~157     |
 | [ ]    | `src/data/credits.h`                       | Credits (role titles only)    | ~50      |
-| [ ]    | `data/text/battle_dome.inc`                | Battle Dome text              | —        |
-| [ ]    | `data/text/battle_tent.inc`                | Battle Tent text              | —        |
-| [ ]    | `data/text/frontier_brain.inc`             | Frontier Brain dialogue       | —        |
+| [x]    | `data/text/battle_dome.inc`                | Battle Dome text              | —        |
+| [x]    | `data/text/battle_tent.inc`                | Battle Tent text              | —        |
+| [x]    | `data/text/frontier_brain.inc`             | Frontier Brain dialogue       | —        |
 | [ ]    | `data/text/apprentice.inc`                 | Apprentice text               | ~1,952   |
-| [ ]    | `data/text/cable_club.inc`                 | Link / multiplayer text       | —        |
-| [ ]    | `data/text/lottery_corner.inc`             | Lottery corner text           | —        |
-| [ ]    | `data/text/questionnaire.inc`              | Questionnaire text            | —        |
-| [ ]    | `data/text/mauville_man.inc`               | Mauville old man stories      | —        |
-| [ ]    | `data/text/blend_master.inc`               | Berry blend text              | —        |
-| [ ]    | `data/text/event_ticket_1.inc`             | Event ticket text             | —        |
-| [ ]    | `data/text/event_ticket_2.inc`             | Event ticket text             | —        |
-| [ ]    | `data/text/trick_house_mechadolls.inc`     | Trick House text              | —        |
-| [ ]    | `data/text/check_furniture.inc`            | Furniture descriptions        | —        |
-| [ ]    | `data/text/abnormal_weather.inc`           | Weather event text            | —        |
-| [ ]    | `data/text/braille.inc`                    | Braille puzzle text           | —        |
-| [ ]    | `data/text/record_mix.inc`                 | Record mixing text            | —        |
-| [ ]    | `data/text/pokemon_news.inc`               | Pokemon news text             | —        |
-| [ ]    | `data/text/shoal_cave.inc`                 | Shoal Cave text               | —        |
-| [ ]    | `data/text/secret_base_trainers.inc`       | Secret base trainer text      | —        |
-| [ ]    | `data/text/surf.inc`                       | Surfing text                  | —        |
+| [x]    | `data/text/cable_club.inc`                 | Link / multiplayer text       | —        |
+| [x]    | `data/text/lottery_corner.inc`             | Lottery corner text           | —        |
+| [x]    | `data/text/questionnaire.inc`              | Questionnaire text            | —        |
+| [x]    | `data/text/mauville_man.inc`               | Mauville old man stories      | —        |
+| [x]    | `data/text/blend_master.inc`               | Berry blend text              | —        |
+| [x]    | `data/text/event_ticket_1.inc`             | Event ticket text             | —        |
+| [x]    | `data/text/event_ticket_2.inc`             | Event ticket text             | —        |
+| [x]    | `data/text/trick_house_mechadolls.inc`     | Trick House text              | —        |
+| [x]    | `data/text/check_furniture.inc`            | Furniture descriptions        | —        |
+| [x]    | `data/text/abnormal_weather.inc`           | Weather event text            | —        |
+| [x]    | `data/text/braille.inc`                    | Braille puzzle text           | —        |
+| [x]    | `data/text/record_mix.inc`                 | Record mixing text            | —        |
+| [x]    | `data/text/pokemon_news.inc`               | Pokemon news text             | —        |
+| [x]    | `data/text/shoal_cave.inc`                 | Shoal Cave text               | —        |
+| [x]    | `data/text/secret_base_trainers.inc`       | Secret base trainer text      | —        |
+| [x]    | `data/text/surf.inc`                       | Surfing text                  | —        |
 
 ---
 
@@ -215,7 +215,7 @@
 | [x]    | `graphics/types/dragon.png`         | Dragon type icon pixel art          |
 | [x]    | `graphics/types/electric.png`       | Electric type icon pixel art        |
 | [x]    | `graphics/types/fairy.png`          | Fairy type icon pixel art           |
-| [x]    | `graphics/types/fighting.png`       | Fighting type icon pixel art        |
+| [x]    | `graphics/types/fight.png`          | Fighting type icon pixel art        |
 | [x]    | `graphics/types/fire.png`           | Fire type icon pixel art            |
 | [x]    | `graphics/types/flying.png`         | Flying type icon pixel art          |
 | [x]    | `graphics/types/ghost.png`          | Ghost type icon pixel art           |
