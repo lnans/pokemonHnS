@@ -50,6 +50,7 @@ data/text/secret_base_trainers.inc
 data/text/shoal_cave.inc
 data/text/surf.inc
 data/text/trainers.inc
+data/text/trick_house_mechadolls.inc
 src/battle_message.c
 src/data/items.h
 src/data/pokemon/pokedex_entries.h
