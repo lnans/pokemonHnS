@@ -48,6 +48,7 @@ data/text/record_mix.inc
 data/text/save.inc
 data/text/secret_base_trainers.inc
 data/text/shoal_cave.inc
+data/text/surf.inc
 data/text/trainers.inc
 src/battle_message.c
 src/data/items.h
