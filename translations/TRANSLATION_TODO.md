@@ -202,34 +202,114 @@
 
 ## Phase 5: Graphics & Assets
 
-| Status | Asset                               | Description                         |
-| ------ | ----------------------------------- | ----------------------------------- |
-| [x]    | `graphics/types/move_types.4bpp.lz` | Type icon pixel art (NORMAL, FIRE…) |
-| [x]    | `graphics/types/contest_beauty.png` | Beauty type icon pixel art          |
-| [x]    | `graphics/types/contest_cool.png`   | Cool type icon pixel art            |
-| [x]    | `graphics/types/contest_cute.png`   | Cute type icon pixel art            |
-| [x]    | `graphics/types/contest_smart.png`  | Smart type icon pixel art           |
-| [x]    | `graphics/types/contest_tough.png`  | Tough type icon pixel art           |
-| [x]    | `graphics/types/bug.png`            | Bug type icon pixel art             |
-| [x]    | `graphics/types/dark.png`           | Dark type icon pixel art            |
-| [x]    | `graphics/types/dragon.png`         | Dragon type icon pixel art          |
-| [x]    | `graphics/types/electric.png`       | Electric type icon pixel art        |
-| [x]    | `graphics/types/fairy.png`          | Fairy type icon pixel art           |
-| [x]    | `graphics/types/fight.png`          | Fighting type icon pixel art        |
-| [x]    | `graphics/types/fire.png`           | Fire type icon pixel art            |
-| [x]    | `graphics/types/flying.png`         | Flying type icon pixel art          |
-| [x]    | `graphics/types/ghost.png`          | Ghost type icon pixel art           |
-| [x]    | `graphics/types/grass.png`          | Grass type icon pixel art           |
-| [x]    | `graphics/types/ground.png`         | Ground type icon pixel art          |
-| [x]    | `graphics/types/ice.png`            | Ice type icon pixel art             |
-| [x]    | `graphics/types/normal.png`         | Normal type icon pixel art          |
-| [x]    | `graphics/types/poison.png`         | Poison type icon pixel art          |
-| [x]    | `graphics/types/psychic.png`        | Psychic type icon pixel art         |
-| [x]    | `graphics/types/rock.png`           | Rock type icon pixel art            |
-| [x]    | `graphics/types/steel.png`          | Steel type icon pixel art           |
-| [x]    | `graphics/types/water.png`          | Water type icon pixel art           |
-| [ ]    | Title screen / logos                | Any English text baked in           |
-| [ ]    | Battle UI tilesets                  | Any English text baked in           |
+| Status | Asset                                                     | Description                  |
+| ------ | --------------------------------------------------------- | ---------------------------- |
+| [x]    | `graphics/types/contest_beauty.png`                       | Beauty type icon pixel art   |
+| [x]    | `graphics/types/contest_cool.png`                         | Cool type icon pixel art     |
+| [x]    | `graphics/types/contest_cute.png`                         | Cute type icon pixel art     |
+| [x]    | `graphics/types/contest_smart.png`                        | Smart type icon pixel art    |
+| [x]    | `graphics/types/contest_tough.png`                        | Tough type icon pixel art    |
+| [x]    | `graphics/types/bug.png`                                  | Bug type icon pixel art      |
+| [x]    | `graphics/types/dark.png`                                 | Dark type icon pixel art     |
+| [x]    | `graphics/types/dragon.png`                               | Dragon type icon pixel art   |
+| [x]    | `graphics/types/electric.png`                             | Electric type icon pixel art |
+| [x]    | `graphics/types/fairy.png`                                | Fairy type icon pixel art    |
+| [x]    | `graphics/types/fight.png`                                | Fighting type icon pixel art |
+| [x]    | `graphics/types/fire.png`                                 | Fire type icon pixel art     |
+| [x]    | `graphics/types/flying.png`                               | Flying type icon pixel art   |
+| [x]    | `graphics/types/ghost.png`                                | Ghost type icon pixel art    |
+| [x]    | `graphics/types/grass.png`                                | Grass type icon pixel art    |
+| [x]    | `graphics/types/ground.png`                               | Ground type icon pixel art   |
+| [x]    | `graphics/types/ice.png`                                  | Ice type icon pixel art      |
+| [x]    | `graphics/types/normal.png`                               | Normal type icon pixel art   |
+| [x]    | `graphics/types/poison.png`                               | Poison type icon pixel art   |
+| [x]    | `graphics/types/psychic.png`                              | Psychic type icon pixel art  |
+| [x]    | `graphics/types/rock.png`                                 | Rock type icon pixel art     |
+| [x]    | `graphics/types/steel.png`                                | Steel type icon pixel art    |
+| [x]    | `graphics/types/water.png`                                | Water type icon pixel art    |
+| [ ]    | `data/tilesets/primary/general_frontier_east/tiles.png`   | —                            |
+| [ ]    | `data/tilesets/primary/general_frontier_west/tiles.png`   | —                            |
+| [ ]    | `data/tilesets/primary/johto_general/tiles.png`           | —                            |
+| [ ]    | `data/tilesets/primary/johto_north_east/tiles.png`        | —                            |
+| [ ]    | `data/tilesets/primary/johto_north_west/tiles.png`        | —                            |
+| [ ]    | `data/tilesets/primary/johto_south/tiles.png`             | —                            |
+| [ ]    | `data/tilesets/primary/kanto_general/tiles.png`           | —                            |
+| [ ]    | `data/tilesets/secondary/battle_dome/tiles.png`           | —                            |
+| [ ]    | `data/tilesets/secondary/bike_shop/tiles.png`             | —                            |
+| [ ]    | `data/tilesets/secondary/cianwood_city/tiles.png`         | —                            |
+| [ ]    | `data/tilesets/secondary/johto_bike_shop/tiles.png`       | —                            |
+| [ ]    | `graphics/bag/check_berry.png`                            | —                            |
+| [ ]    | `graphics/battle_frontier/tourney_buttons.png`            | —                            |
+| [ ]    | `graphics/battle_interface/status.png`                    | —                            |
+| [ ]    | `graphics/battle_interface/status2.png`                   | —                            |
+| [ ]    | `graphics/battle_interface/status2gen3.png`               | —                            |
+| [ ]    | `graphics/battle_interface/status3.png`                   | —                            |
+| [ ]    | `graphics/battle_interface/status3gen3.png`               | —                            |
+| [ ]    | `graphics/battle_interface/status4.png`                   | —                            |
+| [ ]    | `graphics/battle_interface/status4gen3.png`               | —                            |
+| [ ]    | `graphics/battle_interface/statusgen3.png`                | —                            |
+| [ ]    | `graphics/contest/interface.png`                          | —                            |
+| [ ]    | `graphics/contest/results_screen/tiles.png`               | —                            |
+| [ ]    | `graphics/easy_chat/button_window.png`                    | —                            |
+| [ ]    | `graphics/frontier_pass/bg.png`                           | —                            |
+| [ ]    | `graphics/frontier_pass/map_and_card.png`                 | —                            |
+| [ ]    | `graphics/frontier_pass/map_screen.png`                   | —                            |
+| [ ]    | `graphics/interface/menu_info.png`                        | —                            |
+| [ ]    | `graphics/interface/status_icons.png`                     | —                            |
+| [ ]    | `graphics/naming_screen/back_button.png`                  | —                            |
+| [ ]    | `graphics/naming_screen/ok_button.png`                    | —                            |
+| [ ]    | `graphics/naming_screen/page_swap_lower.png`              | —                            |
+| [ ]    | `graphics/naming_screen/page_swap_others.png`             | —                            |
+| [ ]    | `graphics/naming_screen/page_swap_upper.png`              | —                            |
+| [ ]    | `graphics/object_events/pics/misc/mart_light.png`         | —                            |
+| [ ]    | `graphics/party_menu/bg.png`                              | —                            |
+| [ ]    | `graphics/pokeblock/menu.png`                             | —                            |
+| [ ]    | `graphics/pokeblock/use_screen/condition.png`             | —                            |
+| [ ]    | `graphics/pokeblock/use_screen/graph.png`                 | —                            |
+| [ ]    | `graphics/pokeblock/use_screen/updown.png`                | —                            |
+| [ ]    | `graphics/pokedex/area_unknown.png`                       | —                            |
+| [ ]    | `graphics/pokedex/hgss/HGSS_tileset_menu_list_DECA.png`   | —                            |
+| [ ]    | `graphics/pokedex/hgss/HGSS_tileset_menu_list.png`        | —                            |
+| [ ]    | `graphics/pokedex/hgss/HGSS_tileset_menu_search_DECA.png` | —                            |
+| [ ]    | `graphics/pokedex/hgss/HGSS_tileset_menu_search.png`      | —                            |
+| [ ]    | `graphics/pokedex/hgss/HGSS_tileset_menu1.png`            | —                            |
+| [ ]    | `graphics/pokedex/hgss/HGSS_tileset_menu2.png`            | —                            |
+| [ ]    | `graphics/pokedex/hgss/HGSS_tileset_menu3.png`            | —                            |
+| [ ]    | `graphics/pokedex/menu.png`                               | —                            |
+| [ ]    | `graphics/pokedex/search_menu.png`                        | —                            |
+| [ ]    | `graphics/pokemon_storage/menu.png`                       | —                            |
+| [ ]    | `graphics/pokenav/condition/cancel.png`                   | —                            |
+| [ ]    | `graphics/pokenav/condition/graph.png`                    | —                            |
+| [ ]    | `graphics/pokenav/left_headers/beauty.png`                | —                            |
+| [ ]    | `graphics/pokenav/left_headers/condition.png`             | —                            |
+| [ ]    | `graphics/pokenav/left_headers/cool.png`                  | —                            |
+| [ ]    | `graphics/pokenav/left_headers/cute.png`                  | —                            |
+| [ ]    | `graphics/pokenav/left_headers/main_menu.png`             | —                            |
+| [ ]    | `graphics/pokenav/left_headers/match_call.png`            | —                            |
+| [ ]    | `graphics/pokenav/left_headers/party.png`                 | —                            |
+| [ ]    | `graphics/pokenav/left_headers/ribbons.png`               | —                            |
+| [ ]    | `graphics/pokenav/left_headers/search.png`                | —                            |
+| [ ]    | `graphics/pokenav/left_headers/smart.png`                 | —                            |
+| [ ]    | `graphics/pokenav/left_headers/tough.png`                 | —                            |
+| [ ]    | `graphics/pokenav/options/beauty.png`                     | —                            |
+| [ ]    | `graphics/pokenav/options/cancel.png`                     | —                            |
+| [ ]    | `graphics/pokenav/options/condition.png`                  | —                            |
+| [ ]    | `graphics/pokenav/options/cool.png`                       | —                            |
+| [ ]    | `graphics/pokenav/options/cute.png`                       | —                            |
+| [ ]    | `graphics/pokenav/options/match_call.png`                 | —                            |
+| [ ]    | `graphics/pokenav/options/party.png`                      | —                            |
+| [ ]    | `graphics/pokenav/options/ribbons.png`                    | —                            |
+| [ ]    | `graphics/pokenav/options/search.png`                     | —                            |
+| [ ]    | `graphics/pokenav/options/smart.png`                      | —                            |
+| [ ]    | `graphics/pokenav/options/tough.png`                      | —                            |
+| [ ]    | `graphics/pokenav/region_map/city_zoom_text.png`          | —                            |
+| [ ]    | `graphics/shop/money.png`                                 | —                            |
+| [ ]    | `graphics/slot_machine/menu.png`                          | —                            |
+| [ ]    | `graphics/summary_screen/tiles.png`                       | —                            |
+| [ ]    | `graphics/trainer_card/frlg/tiles.png`                    | —                            |
+| [ ]    | `graphics/trainer_card/tiles.png`                         | —                            |
+| [ ]    | `graphics/union_room_chat/background.png`                 | —                            |
+| [ ]    | `graphics/union_room_chat/r_button_labels.png`            | —                            |
 
 | OAM palette | Fichier .pal     | Types combat                                                | Types concours |
 | ----------- | ---------------- | ----------------------------------------------------------- | -------------- |
