@@ -180,7 +180,7 @@
 | [x]    | `data/text/battle_dome.inc`                | Battle Dome text              | —        |
 | [x]    | `data/text/battle_tent.inc`                | Battle Tent text              | —        |
 | [x]    | `data/text/frontier_brain.inc`             | Frontier Brain dialogue       | —        |
-| [ ]    | `data/text/apprentice.inc`                 | Apprentice text               | ~1,952   |
+| [x]    | `data/text/apprentice.inc`                 | Apprentice text               | ~1,952   |
 | [x]    | `data/text/cable_club.inc`                 | Link / multiplayer text       | —        |
 | [x]    | `data/text/lottery_corner.inc`             | Lottery corner text           | —        |
 | [x]    | `data/text/questionnaire.inc`              | Questionnaire text            | —        |

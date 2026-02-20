@@ -1,4 +1,11 @@
 {
   "editor.formatOnSave": false,
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    "source.sort.json": "never",
+    "source.fixAll.eslint": "never",
+    "source.fixAll.prettier": "never",
+    "source.formatAll.terraform": "never",
+    "source.organizeLinkDefinitions": "never"
+  }
 }

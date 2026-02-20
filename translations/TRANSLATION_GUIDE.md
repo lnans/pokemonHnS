@@ -705,6 +705,14 @@ After translating, rebuild with `make modern` and test in mGBA. Pay attention to
 9. `data/text/apprentice.inc` - Apprentice text
 10. `src/debug.c` - Debug menu (optional)
 
+### Keep the French file list updated
+
+Whenever you translate or modify a file as part of the French translation, add its path to:
+
+- `translations/updated_file_list_fr.txt`
+
+This list is used as a simple tracker of what has been touched for the FR effort.
+
 ### Multi-Language Architecture (for future languages)
 
 If you plan to support multiple languages, consider creating a directory structure like:
