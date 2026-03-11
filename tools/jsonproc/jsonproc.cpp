@@ -26,6 +26,28 @@ string get_custom_var(string key)
     return customVars[key];
 }
 
+// Maps UTF-8 continuation byte (second byte of 0xC3 xx sequence) to ASCII equivalent.
+// Returns '\0' if not a known accented character.
+static char utf8_c3_to_ascii(unsigned char next)
+{
+    switch (next)
+    {
+        case 0x80: case 0x81: case 0x82: return 'A';  // ÀÁÂ
+        case 0x88: case 0x89: case 0x8A: case 0x8B: return 'E';  // ÈÉÊË
+        case 0x8E: case 0x8F: return 'I';  // ÎÏ
+        case 0x92: case 0x93: case 0x94: case 0x96: return 'O';  // ÒÓÔÖ
+        case 0x99: case 0x9A: case 0x9B: return 'U';  // ÙÚÛ
+        case 0xA0: case 0xA1: case 0xA2: case 0xA4: return 'a';  // àáâä
+        case 0xA7: return 'c';  // ç
+        case 0xA8: case 0xA9: case 0xAA: case 0xAB: return 'e';  // èéêë
+        case 0xAC: case 0xAD: case 0xAE: case 0xAF: return 'i';  // ìíîï
+        case 0xB2: case 0xB3: case 0xB4: case 0xB6: return 'o';  // òóôö
+        case 0xB9: case 0xBA: case 0xBB: case 0xBC: return 'u';  // ùúûü
+        case 0xBF: return 'y';  // ÿ
+        default: return '\0';
+    }
+}
+
 int main(int argc, char *argv[])
 {
     if (argc != 4)
@@ -105,11 +127,22 @@ int main(int argc, char *argv[])
     });
 
     env.add_callback("cleanString", 1, [](Arguments& args) {
-        string badChars = ".'{} \n\t-\u00e9";
+        string badChars = ".'{} \n\t-";
         string str = args.at(0)->get<string>();
         for (unsigned int i = 0; i < str.length(); i++) {
             if (badChars.find(str[i]) != std::string::npos) {
                 str[i] = '_';
+                continue;
+            }
+            unsigned char c = static_cast<unsigned char>(str[i]);
+            if (c == 0xC3 && i + 1 < str.size())
+            {
+                char ascii = utf8_c3_to_ascii(static_cast<unsigned char>(str[i + 1]));
+                if (ascii != '\0')
+                {
+                    str[i] = ascii;
+                    str.erase(i + 1, 1);
+                }
             }
         }
         return str;
